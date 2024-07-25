@@ -18,7 +18,7 @@ const app = express();
 const port = 3000;
 console.log(GoogleGenerativeAI);
 const client = new AssemblyAI({
-  apiKey: '384b74d8e9354d69bba41e3ca0202010',
+  apiKey: 'process.env.AssemblyAPI',
 });
 
 const upload = multer({ dest: 'uploads/' });
